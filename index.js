@@ -27,7 +27,11 @@ function suit() {
     }
         document.querySelector(".top").innerHTML = suit;
         document.querySelector(".bottom").innerHTML = suit;
+        // document.querySelector('.bottom').style.color = '#FF0000';
+        // document.querySelector('.top').style.color = '#FF0000';
 }
+
+
 
             
 

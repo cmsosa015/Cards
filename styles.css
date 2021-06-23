@@ -1,3 +1,18 @@
 body{
     background: green;
 }
+
+div.top{
+    font-size: 100px;
+   
+}
+
+div.bottom{
+    font-size: 100px;
+}
+
+div.middle{
+    font-size: 100px;
+    font-weight: 300;
+   font-family: 'Times New Roman', Times, serif
+}
