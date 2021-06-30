@@ -25,10 +25,22 @@ function suit() {
             break;
             
     }
+
+    let randomColor= Math.floor(Math.random() * 2 + 1);
+    let color;
+    switch(randomColor){
+        case 1:
+            color= "#FF0000"
+            break;
+        case 2:
+            color= "black"
+            break;
+    }
+
         document.querySelector(".top").innerHTML = suit;
         document.querySelector(".bottom").innerHTML = suit;
-        // document.querySelector('.bottom').style.color = '#FF0000';
-        // document.querySelector('.top').style.color = '#FF0000';
+        document.querySelector('.bottom').style.color = color;
+        document.querySelector('.top').style.color = color;
 }
 
 
